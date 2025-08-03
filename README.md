@@ -13,3 +13,35 @@ Make sure to add and push the pkl or text file of your scraped html (this is spe
 * (Question 6) Histogram shown with appropriate labelling: 1 pt
 * (Question 7) Histogram shown with appropriate labelling: 1 pt
 * (Question 8) Thoughtful answer provided: 1 pt
+
+# **How to run the project yourself:**
+
+**Cloned and Opened my Github project**
+```
+cd \Projects
+git clone https://github.com/dennykami1/web-scraping
+cd web-scraping
+code .
+```
+
+**Commited Changes to Github**
+```
+git add .
+git commit -m "Add message"
+git push -u origin main
+```
+
+**Created Virtual Environment and Activated**
+```
+py -m venv .venv
+.venv\Scripts\activate
+```
+
+**Upgrade pip & install requirements.txt**
+```
+py -m pip install --upgrade pip setuptools wheel
+py -m pip install -r requirements.txt
+```
+
+**Update Kernel in Jupyter Notebook**
+**Export to html using the Jupyter menu**
