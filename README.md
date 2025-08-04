@@ -3,6 +3,21 @@
 Complete the tasks in the Python Notebook in this repository.
 Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
 
+## Key Tasks
+- Web Scraping: Extracts HTML from Wayback Machine and saves to pickle file
+- Text Processing: Uses BeautifulSoup to extract clean text from HTML
+- Token Analysis: Identifies 5 most frequent tokens using spaCy (excluding stopwords/punctuation)
+- Lemma Analysis: Finds 5 most frequent lemmas with same filtering
+- Scoring Functions: Creates sentence scoring methods based on token/lemma frequency ratios 6-7. Statistical Visualization: Generates histograms of sentence scores
+- Theoretical Analysis: Discusses filtering for nouns only
+
+## Technologies
+- requests/BeautifulSoup: Web scraping and HTML parsing
+- spaCy: NLP processing and tokenization
+- matplotlib: Data visualization
+- Counter: Frequency analysis
+- The notebook demonstrates a complete pipeline from web scraping to text analysis and visualization.
+
 ## Rubric
 
 * (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
